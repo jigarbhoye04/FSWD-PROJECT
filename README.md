@@ -12,6 +12,7 @@ Welcome to IPL Insights Hub! This project aims to provide comprehensive insights
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
+- [Disclaimer](#Disclaimer)
 
 ## Introduction
 
@@ -62,4 +63,11 @@ Contributions to IPL Insights Hub are welcome! If you have any ideas, suggestion
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## Disclaimer
+
+This IPL Database is a demonstration project for educational purposes only. It offers insights into database management techniques using IPL data without replicating official IPL data. We acknowledge and respect the ownership of the original project maintained by its creator. Our use of this database is not for commercial gain or infringement upon any rights. For further details, please refer to the original project repository on [GitHub](https://github.com/Vansh-Joshi/IPL-DBMS).
+
+This version emphasizes that the project is used solely for learning purposes and respects the ownership of the original project.
 
