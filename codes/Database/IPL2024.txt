@@ -1,3 +1,11 @@
+Original : https://github.com/Vansh-Joshi/IPL-DBMS
+
+Disclaimer:
+
+This IPL Database is a demonstration project for educational purposes only. It offers insights into database management techniques using IPL data without replicating official IPL data. We acknowledge and respect the ownership of the original project maintained by its creator. Our use of this database is not for commercial gain or infringement upon any rights. For further details, please refer to the original project repository on [GitHub](https://github.com/Vansh-Joshi/IPL-DBMS).
+
+This version emphasizes that the project is used solely for learning purposes and respects the ownership of the original project.
+
 OBJECT_NAME
 ---------------------------
 PLAYERS
