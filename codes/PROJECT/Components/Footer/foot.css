@@ -1,0 +1,149 @@
+.section_padding{
+    padding: 4rem 4 rem;
+}
+
+.footer{
+    background-color: cadetblue;
+}
+
+.sb_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.sb_footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sb_footer-links_div{
+    width: 150px;
+    margin: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: black;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia p{
+    width: 60px;
+}
+
+.socialmedia img{
+    width: 60%;
+}
+
+.sb_footer-links_div h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 1rem;
+}
+
+.sb_footer-links_div p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.sb_footer-below-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.sb_footer-below-links p{
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+hr{
+    color: white !important;
+    width: 100%;
+}
+
+.sb_footer-copyright{
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 850px){
+    .sb_footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .sb_footer-heading h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .sb_footer-links{
+        margin: 1rem 0;
+    }
+
+    .sb_footer-btn p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sb_footer-below{
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .sb_footer-links_div{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .sb_footer-links_div p{
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+/*     
+    .sb_footer-links_div h4{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .sb_footer-below-links p{
+        font-size: 11px;
+        line-height: 13px;
+    } */
+
+}
+
+
+@media screen and (max-width: 450px){
+    .sb_footer-heading h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+

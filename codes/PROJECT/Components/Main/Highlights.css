@@ -1,0 +1,49 @@
+.highlights-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px;
+    height: 300px; /* Adjust height as needed */
+    background-color: #f0f0f0;
+  }
+  
+  .highlights-content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .highlight-description {
+    margin-right: 20px;
+  }
+  
+  .highlight-info {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .highlight-video {
+    position: relative;
+  }
+
+  .highlight-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .highlight-video img {
+    width: 100%; /* Adjust image width as needed */
+    height: 300px;
+    /* object-fit: cover; */
+  }
+  
+  .video-controls {
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .video-controls button {
+    margin-right: 10px;
+  }
+  

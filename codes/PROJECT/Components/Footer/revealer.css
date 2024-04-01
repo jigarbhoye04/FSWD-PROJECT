@@ -1,0 +1,120 @@
+:root {
+    font-size: 14px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 40px 30px;
+    background-color: #ffdb00;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo--white path {
+    fill: #fff;
+  }
+  
+  .logo svg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer__button {
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -18px;
+    outline: none;
+    animation-duration: 300ms;
+    animation-timing-function: ease;
+  }
+  
+  .footer__button[data-open='true'] {
+    background-color: hsl(52, 100%, 50%);
+    animation-name: scale;
+  }
+  
+  .footer__button[data-open='false'] {
+    transition: background-color 250ms linear;
+  }
+  
+  @keyframes scale {
+    from {
+      transform: scale(0);
+    }
+  
+    to {
+      transform: scale(100%);
+    }
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+  
+  footer svg {
+    width: 2%;
+  }
+  
+  .footer__nav {
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    visibility: hidden;
+    clip-path: circle(var(--radius) at calc(100% - 55px) 47px);
+  }
+  
+  .footer__nav[data-active='true'] {
+    visibility: visible;
+  }
+  
+  .footer_menu {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer_menu > .footer_menu-item {
+    font-size: 10vh;
+  }
+  
+  .footer_menu > .footer_menu-item:not(:last-of-type) {
+    margin-bottom: 0.1em;
+  }
+  
+  .footer_menu-item a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer_menu-item a:hover {
+    font-style: italic;
+  }
+  
